@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+    <head>
+        <meta charset = "utf-8"/>
+        <title> Minha apresentação </title>
+    </head>
+    <body>
+        <h1> Débora Rayssa de Lira </h1>
+        <p>
+            Recifense, 22 anos de idade. 
+        <br>
+            Hoje estudo em uma universidade e uma faculdade.
+        </br>
+        </p>
+        <img src="../imagem/fotoperfil.PNG" title= "Esta sou eu" width="300" height="250"/>
+        <h2> Onde e o que estudo: </h2>
+        <ul>
+            <li> 
+                UFPE 
+                <ul> <li> Licenciatura em Ciências Biológicas (8º período) </li> </ul>
+            </li>
+            <li>
+                FICR
+                <ul> <li> Análise e Desensolvimento de Sistemas (1º período) </li> </ul>
+            <li>
+                IFPE
+                <ul> <li> LIBRAS </li> </ul>
+            </li>
+        </ul>
+        <h3> Enquanto você navega, ouça este áudio:</h3>
+        <audio width="310" height="100" controls>
+            <source src="C:\Users\LUCKA\Downloads\videoplayback.m4a" type="audio/mp4">
+            Your browser does not support the audio tag.
+        </audio>
+        <h3 id="gostos-pessoais"> Meus gostos pessoais </h3>
+        <p> Veja minha música favorita 
+            <a target= "_blank" href="https://www.youtube.com/watch?v=BQk0SpeHV3k"> aqui.</a>
+        </p>
+        <p> Outras informações <a href="html2_da_apresentação.html"> aqui</a>
+        </p>
+        <h3> Meus idiomas </h3>
+        <table width="400" >
+            <tr width="101" height="40">
+                <th>Idioma</th>
+                <th> Básico </th>
+                <th> Intermediário </th>
+                <th> Avançado </th>
+            </tr>
+            <tr align="CENTER">
+                <td heigth="40"> Inglês </td>
+                <td heigth="40"> X </td>
+            </tr>
+            <tr align="CENTER">
+                <td heigth="40"> Espanhol </td>
+                <td heigth="40"> X </td>
+            </tr>
+            <tr align="CENTER"> 
+                <td heigth="40"> Francês </td>
+                <td heigth="40"> X </td>
+            </tr>
+            <tr align="CENTER">
+                <td heigth="40"> LIBRAS </td>
+                <td heigth="40"> X </td>
+                <td heigth="40"> X </td>
+            </tr>
+            <tr align="CENTER">
+                <td heigth="40"> Português</td>
+                <td heigth="40"> X </td>
+                <td heigth="40"> X </td>
+                <td heigth="40"> X </td>
+            </tr>
+        </table>
+        <h3> Curiosidades: Um vídeo sobre o universo</h3>
+        <video width="310" height="100" controls> 
+            <source src="C:\Users\LUCKA\Downloads\moviezoom.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3>Interação</h3>
+        <p> Por favor responda:</p>
+        <form method="post" action="cadastrop.php">
+            <label for= "responda"> Seu e-mail: </label>
+            <input type="nome" id="responda" name="responda"/>
+            <br /> <br />
+            <label for="comentarios"> Comentários e sugestões </label>
+            <textarea id="comentarios" name="comentarios" rows="8" cols="50"></textarea>
+            <br /> <br />
+            <label> Você gostou da página? </label>
+            <input type="radio" id="sim" name="Você gostou da página?" value="s" />
+            <label for="sim"> sim </label>
+            <input type="radio" id="não" name="Você gostou da página?" value="n" />
+            <label for="não"> não </label>
+            <br /> <br />
+            <input type="checkbox" id="envio_email" name="envio_email" value="sim" />
+            <label for="envio_email"> Receber cópia da minha resposta por e-mail </label>
+            <br /> <br />
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+            </form>
+            <a href="#gostos-pessoais"> Ir para Meus gostos pessoais</a>
+    </body>
+</html>            
